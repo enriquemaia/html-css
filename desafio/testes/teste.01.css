@@ -1,0 +1,46 @@
+div {
+         text-align: center;
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover.start-btn {
+  color: rgb(5, 79, 5);
+}
+
+button:hover.pause-btn {
+  color: rgb(53, 53, 53);
+}
+
+button:hover.stop-btn {
+  color: rgb(56, 3, 3);
+}
+
+button {
+  height: 1.5em;
+  width: 5em;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+button.start-btn {
+  background-color: green;
+}
+
+button.pause-btn {
+  background-color: gray;
+}
+
+button.stop-btn {
+  background-color: red;
+}
